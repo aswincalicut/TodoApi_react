@@ -1,0 +1,57 @@
+/* .mainTitle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    position: relative;
+    left: auto;
+    transform: none;
+    text-align: center;
+  }
+} */
+.welcome{
+  text-align: center;
+  color: white;
+}
+.bodycolor{
+  background-image: url("C:\Users\ASWIN\Downloads\images\marvel1.jpg");
+
+  /* position: relative; */
+  padding: 20px;
+  
+  
+}
+/* li{
+  cursor: pointer;
+  margin-left: 900px;
+  font-size: xx-large;
+} */
+
+.menu{
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.menu ul{
+  font-size: larger;
+  font-weight: 100;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu li{
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.cont{
+  margin-left: 400px;
+}
+
+.std{
+  margin-left: 590px;
+}

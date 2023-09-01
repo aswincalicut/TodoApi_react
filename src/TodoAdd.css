@@ -1,0 +1,27 @@
+.btn_submit {
+    text-align: center;
+}
+.crd{
+    margin: auto;
+    width: 600px;
+    margin-top: 10px;
+    /* margin-left: 25%; */
+    
+}
+.card-body{
+    background-color: rgb(1, 6, 43);
+}
+.card-body:hover{
+    background-color: rgb(24, 30, 78);
+}
+.tit-name{
+    color: white;
+}
+.addbtn{
+    background-color: rgb(43, 55, 142);
+    border-color: rgb(43, 55, 142);
+}
+.addbtn:hover{
+    background-color: rgb(12, 17, 50);
+    border-color: rgb(43, 55, 142);
+}
