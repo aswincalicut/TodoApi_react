@@ -1,0 +1,19 @@
+.update_form {
+    width: 590px;
+    margin: auto;
+}
+.crd{
+    width: 600px;
+    background-color: rgb(1, 6, 43);
+    color: white;
+}
+
+.submit-Button{
+    text-align: center;
+    
+}
+
+.addbtn{
+    background-color: rgb(43, 55, 142);
+    border-color: rgb(43, 55, 142);
+}

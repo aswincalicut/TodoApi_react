@@ -53,7 +53,7 @@ function TodoView() {
                         <td>{list.date}</td>
                         
                         <td>
-                            <Link className='btn btn-primary' to={`/update/${list.id}`} >Update</Link> 
+                            <Link className='btn btn-primary update' to={`/update/${list.id}`} >Update</Link> 
                         </td>
 
                         <td>

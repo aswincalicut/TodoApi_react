@@ -3,8 +3,13 @@
 }
 .dltbtn{
     color: red;
+    cursor: pointer;
+}
 
+.update{
+    background-color: rgb(1, 6, 43);
+}
 
-
-    
+.update:hover{
+    background-color: rgb(1, 6, 43);
 }

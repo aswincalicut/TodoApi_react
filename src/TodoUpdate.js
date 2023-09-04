@@ -1,7 +1,9 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
-import { Button, Container, Form } from 'react-bootstrap';
+import { Button, Card, Container, Form } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
+import './TodoUpdate.css';
+
 
 const baseurl = 'http://127.0.0.1:8000/'
 
@@ -45,7 +47,8 @@ function TodoUpdate() {
   return (
     <div>
          <Container>
-         <Form>
+          <Card className='crd'>
+         <Form className='update_form'>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>NAME</Form.Label>
         <Form.Control type="text" placeholder="Enter name " onChange={handlechange} name="name" value = {first.name} />
@@ -61,11 +64,13 @@ function TodoUpdate() {
         <Form.Control type="txt" placeholder='Enter priority high/low' onChange={handlechange} name = "priority" value = {first.priority} />
       </Form.Group>
 
-    
-      <Button  onClick={submitform} variant="primary" type="submit">
+      <div className='submit-Button'>
+      <Button className='addbtn' onClick={submitform} variant="primary" type="submit">
         Submit
       </Button>
+      </div>
     </Form>
+    </Card>
     </Container>
 
     </div>
